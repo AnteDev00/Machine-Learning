@@ -10,7 +10,8 @@ Prije učenja:
 
 Nakon učenja:
 
-![image](https://github.com/AnteDev00/Machine-Learning/assets/151842550/cd64268b-7245-4878-adba-278dc6b3d485)
+![image](https://github.com/AnteDev00/Machine-Learning/assets/151842550/8ce682d9-60f9-4058-8b9b-f4fd6e7a3728)
+
 
 
 Cilj procesa učenja je smanjiti vrijednost funkcije "Cost", jer se time smanjiva pogreška u predikciji modela.
