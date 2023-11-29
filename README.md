@@ -16,9 +16,6 @@ Prvi primjer predstavlja perceptron, najjednostavniju neuronsku mrežu s jednim 
 
 Proces učenja ima za cilj smanjiti vrijednost funkcije "Cost", prilagođavajući parametre i poboljšavajući predikcije modela.
 
-### Funkcija Cost nakon učenja:
-![Funkcija Cost](https://github.com/AnteDev00/Machine-Learning/assets/151842550/80ac2fc7-cb62-482d-81d2-8ca8d37b5008)
-
 ---
 
 ## Primjer 2: Više Neurona za Inteligentniji Sustav
