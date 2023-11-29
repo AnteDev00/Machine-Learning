@@ -5,9 +5,11 @@ Projekt se sastoji od 2 primjera.
 Prvi primjer - perceptron, najjednostavnija neuronska mreža s 1 neuronom, omogućila je prepoznavanje jednostavnih uzoraka (poput poveznice između skupova 1,2,3,4 i 2,4,6,8), nakon procesa učenja. 
 
 Prije učenja:
+
 ![image](https://github.com/AnteDev00/Machine-Learning/assets/151842550/7072eed7-4d4f-4228-9a1e-24e313827ba8)
 
 Nakon učenja:
+
 ![image](https://github.com/AnteDev00/Machine-Learning/assets/151842550/cd64268b-7245-4878-adba-278dc6b3d485)
 
 
