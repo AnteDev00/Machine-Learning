@@ -1,36 +1,38 @@
-Projekt u kojem se istražuje strojno učenje pomoću neuronskih mreža.
+# Projekt Strojnog Učenja s Neuronskim Mrežama
 
-Projekt se sastoji od 2 primjera. 
+Ovaj projekt istražuje domenu strojnog učenja kroz implementaciju neuronskih mreža. Projekt se sastoji od dva ključna primjera.
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Prvi primjer - perceptron, najjednostavnija neuronska mreža s 1 neuronom, omogućila je prepoznavanje jednostavnih uzoraka (poput poveznice između skupova 1,2,3,4 i 2,4,6,8), nakon procesa učenja. 
+---
 
-Prije učenja:
+## Primjer 1: Perceptron
 
-![image](https://github.com/AnteDev00/Machine-Learning/assets/151842550/7072eed7-4d4f-4228-9a1e-24e313827ba8)
+Prvi primjer predstavlja perceptron, najjednostavniju neuronsku mrežu s jednim neuronu. Ova mreža omogućava prepoznavanje jednostavnih uzoraka, kao što su povezanosti između skupova brojeva. Prikazi prije i nakon procesa učenja jasno demonstriraju kako se model prilagođava tijekom vremena.
 
-Nakon učenja:
+### Prije učenja:
+![Prije učenja](https://github.com/AnteDev00/Machine-Learning/assets/151842550/7072eed7-4d4f-4228-9a1e-24e313827ba8)
 
-![image](https://github.com/AnteDev00/Machine-Learning/assets/151842550/8ce682d9-60f9-4058-8b9b-f4fd6e7a3728)
+### Nakon učenja:
+![Nakon učenja](https://github.com/AnteDev00/Machine-Learning/assets/151842550/8ce682d9-60f9-4058-8b9b-f4fd6e7a3728)
 
+Proces učenja ima za cilj smanjiti vrijednost funkcije "Cost", prilagođavajući parametre i poboljšavajući predikcije modela.
 
-Cilj procesa učenja je smanjiti vrijednost funkcije "Cost", jer se time prilagođavaju vrijednosti parametara, te se time poboljšavaju predikcije modela.
+### Funkcija Cost nakon učenja:
+![Funkcija Cost](https://github.com/AnteDev00/Machine-Learning/assets/151842550/80ac2fc7-cb62-482d-81d2-8ca8d37b5008)
 
-![image](https://github.com/AnteDev00/Machine-Learning/assets/151842550/80ac2fc7-cb62-482d-81d2-8ca8d37b5008)
+---
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Primjer 2: Više Neurona za Inteligentniji Sustav
 
-Drugi primjer, obuhvaća povezivanje više neurona kako bi stvorio inteligentniji sustav.
-On je sposoban prepoznati kompleksnijie uzorake/pravila, poput tablica istine (truth tables).
+Drugi primjer obuhvaća povezivanje više neurona kako bi stvorio inteligentniji sustav. Ovaj model, s tri povezana neurona, pokazuje sposobnost prepoznavanja kompleksnijih uzoraka i pravila, poput tablica istine.
 
-Prije učenja:
+### Prije učenja:
+![Prije učenja](https://github.com/AnteDev00/Machine-Learning/assets/151842550/4494c54c-f61a-4a68-b043-b6fe0335bbd6)
 
-![image](https://github.com/AnteDev00/Machine-Learning/assets/151842550/4494c54c-f61a-4a68-b043-b6fe0335bbd6)
+### Nakon učenja:
+![Nakon učenja](https://github.com/AnteDev00/Machine-Learning/assets/151842550/7a37a789-9743-4d13-9013-e914ae231e80)
 
-Nakon učenja: 
+Ovaj model kontrolira ukupno devet vrijednosti, a nakon procesa učenja, predikcije postaju sve preciznije.
 
-![image](https://github.com/AnteDev00/Machine-Learning/assets/151842550/7a37a789-9743-4d13-9013-e914ae231e80)
+--- 
 
-
-Ovaj model ima 3 povezana neurona, koji kontroliraju ukupno 9 vrijednosti.
-Vidimo da nakon učenja njihove predikcije postaju sve točnije i točnije.
+Ovaj projekt koristi koncepte strojnog učenja poput perceptrona i višeslojnih neuronskih mreža, demonstrirajući kako se modeli prilagođavaju tijekom procesa učenja.
