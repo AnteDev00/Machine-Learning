@@ -14,13 +14,13 @@ Prvi primjer predstavlja perceptron, najjednostavniju neuronsku mrežu s jednim 
 ### Nakon učenja:
 ![Nakon učenja](https://github.com/AnteDev00/Machine-Learning/assets/151842550/8ce682d9-60f9-4058-8b9b-f4fd6e7a3728)
 
-Proces učenja ima za cilj smanjiti vrijednost funkcije "Cost", prilagođavajući parametre i poboljšavajući predikcije modela.
+Cilj procesa učenja je smanjiti vrijednost funkcije "Cost", prilagođavajući parametre i poboljšavajući predikcije modela.
 
 ---
 
 ## Primjer 2: Više Neurona za Inteligentniji Sustav
 
-Drugi primjer obuhvaća povezivanje više neurona kako bi stvorio inteligentniji sustav. Ovaj model, s tri povezana neurona, pokazuje sposobnost prepoznavanja kompleksnijih uzoraka i pravila, poput tablica istine.
+Drugi primjer obuhvaća povezivanje više neurona kako bi stvorio inteligentniji sustav. Ovaj model, s tri povezana neurona, pokazuju sposobnost prepoznavanja kompleksnijih uzoraka i pravila, poput tablica istine (Truth tables).
 
 ### Prije učenja:
 ![Prije učenja](https://github.com/AnteDev00/Machine-Learning/assets/151842550/4494c54c-f61a-4a68-b043-b6fe0335bbd6)
