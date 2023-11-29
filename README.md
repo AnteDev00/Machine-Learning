@@ -32,4 +32,5 @@ Ovaj model kontrolira ukupno devet vrijednosti, a nakon procesa učenja, predikc
 
 --- 
 
+
 Ovaj projekt koristi koncepte strojnog učenja poput perceptrona i višeslojnih neuronskih mreža, demonstrirajući kako se modeli prilagođavaju tijekom procesa učenja.
