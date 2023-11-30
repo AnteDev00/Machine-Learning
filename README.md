@@ -6,7 +6,7 @@ Ovaj projekt istražuje domenu strojnog učenja kroz implementaciju neuronskih m
 
 ## Primjer 1: Perceptron
 
-Prvi primjer predstavlja perceptron, najjednostavniju neuronsku mrežu s jednim neuronu. Ova mreža omogućava prepoznavanje jednostavnih uzoraka, kao što su povezanosti između skupova brojeva. Prikazi prije i nakon procesa učenja jasno demonstriraju kako se model prilagođava tijekom vremena.
+Prvi primjer predstavlja perceptron, najjednostavniju neuronsku mrežu s jednim neuronom. Ova mreža omogućava prepoznavanje jednostavnih uzoraka, kao što su povezanosti između skupova brojeva. Prikazi prije i nakon procesa učenja jasno demonstriraju kako se model prilagođava tijekom vremena.
 
 ### Prije učenja:
 ![Prije učenja](https://github.com/AnteDev00/Machine-Learning/assets/151842550/7072eed7-4d4f-4228-9a1e-24e313827ba8)
