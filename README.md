@@ -1,6 +1,6 @@
 # Projekt Strojnog Učenja s Neuronskim Mrežama
 
-Ovaj projekt istražuje domenu strojnog učenja kroz implementaciju neuronskih mreža. Projekt se sastoji od dva ključna primjera.
+Projekt istražuje domenu strojnog učenja kroz implementaciju neuronskih mreža. Projekt se sastoji od dva ključna primjera.
 
 ---
 
@@ -31,6 +31,3 @@ Drugi primjer obuhvaća povezivanje više neurona kako bi stvorio inteligentniji
 Ovaj model kontrolira ukupno devet vrijednosti, a nakon procesa učenja, predikcije postaju sve preciznije.
 
 --- 
-
-
-Ovaj projekt koristi koncepte strojnog učenja poput perceptrona i višeslojnih neuronskih mreža, demonstrirajući kako se modeli prilagođavaju tijekom procesa učenja.
