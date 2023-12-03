@@ -34,9 +34,11 @@ To se postiglo zbog funkcije Cost, te je čitav cilj procesa učenja smanjiti vr
 
 ## Primjer 2: Više Neurona za Inteligentniji Sustav
 
-Drugi primjer obuhvaća povezivanje više neurona kako bi stvorio inteligentniji sustav. Ovaj model, s tri povezana neurona, pokazuju sposobnost prepoznavanja kompleksnijih uzoraka i pravila, poput tablica istine (Truth tables).
+Drugi primjer obuhvaća povezivanje više neurona kako bi stvorio inteligentniji sustav. 
 
-![image](https://github.com/AnteDev00/Machine-Learning/assets/151842550/eb2a5ee0-5712-46d7-8557-b2a5e39b590a)
+![image](https://github.com/AnteDev00/Machine-Learning/assets/151842550/cedc50fb-1493-4fe6-addc-d38209e8e596)
+
+Ovaj model, s tri povezana neurona, pokazuju sposobnost prepoznavanja kompleksnijih uzoraka i pravila, poput tablica istine (Truth tables).
 
 ![image](https://github.com/AnteDev00/Machine-Learning/assets/151842550/4eac1bea-4556-4c04-9f6e-3499b13a96b6)
 
