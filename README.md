@@ -14,17 +14,21 @@ Cilj je da Perceptron nauči poveznicu između prvog skupa (0,1,2,3,4,5) i drugo
 
 
 ### Prije učenja:
-![Prije učenja](https://github.com/AnteDev00/Machine-Learning/assets/151842550/7072eed7-4d4f-4228-9a1e-24e313827ba8)
+![image](https://github.com/AnteDev00/Machine-Learning/assets/151842550/511af133-9098-453d-b4ae-da5d57db65c0)
 
-Kao što vidimo, na početku model množi sa brojem X i dodaje vrijednost Y.
+
+Kao što vidimo, na početku model množi sa brojem 3.91 i dodaje vrijednost -0.14 .
 Zbog toga su njegove predikcije krive.
 
 ### Nakon učenja:
 ![Nakon učenja](https://github.com/AnteDev00/Machine-Learning/assets/151842550/8ce682d9-60f9-4058-8b9b-f4fd6e7a3728)
 
-Tokom procesa učenja, model smanjuje broj X -> 2, te vrijednost Y -> 0.
+Tokom procesa učenja, model smanjuje broj 3.91 -> 2, te vrijednost -0.14 -> 0.
 
-To se postiglo zbog funkcije Cost te je cilj procesa učenja smanjiti vrijednost te funkcije, prilagođavajući parametre i poboljšavajući predikcije modela.
+To se postiglo zbog funkcije Cost, te je čitav cilj procesa učenja smanjiti vrijednost Cost funkcije, prilagođavajući parametre i poboljšavajući predikcije modela.
+
+![image](https://github.com/AnteDev00/Machine-Learning/assets/151842550/4efabe17-a8fc-4376-8e7d-e4dee064392c)
+
 
 ---
 
