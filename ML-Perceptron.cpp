@@ -8,9 +8,9 @@ using namespace std;
 
 double randomParam()
 {
-    random_device rd; //seed
-    mt19937 gen(rd()); // random engine gen(erator)
-    uniform_real_distribution<double> dis(0.0, 10.0);
+    static random_device rd; //seed
+    static mt19937 gen(rd()); // random engine gen(erator)
+    uniform_real_distribution<double> dis(-5, 5);
     return dis(gen);
 }
 
@@ -44,7 +44,7 @@ double cost(double param, double bias)
     return cost;
 }
 
-double costAndPrint(double param, double bias)
+void costAndPrint(double param, double bias)
 {
 // ouput = input * parametar + bias
     double cost = 0.00;
@@ -59,7 +59,6 @@ double costAndPrint(double param, double bias)
     }
     cost /= t_data.size();
     cout << "/--------------------------------------------------/";
-    return cost;
 }
 
 void train(int amount, double& param, double &bias)
@@ -86,7 +85,8 @@ int main()
 {
     double param = randomParam();
     double bias = randomParam();
-	cout << "\nCurrent Cost: " << costAndPrint(param, bias);
+	costAndPrint(param, bias);
+    cout << "\nCurrent Cost: " << cost(param,bias);
 	cout << "\n\nTraining process is about to start." ;
 
 	while(true)
@@ -99,8 +99,8 @@ int main()
 		cout<<endl;
 	
 		train(amount, param, bias);	
-	    std::cout << "\nAfter training, Cost: " << std::fixed << std::setprecision(6) << costAndPrint(param, bias) << endl;
-	    
+        costAndPrint(param, bias);
+	    std::cout << "\nAfter training, Cost: " << std::fixed << std::setprecision(6) << cost(param,bias) << endl;
 	}
 	
     return 0;
