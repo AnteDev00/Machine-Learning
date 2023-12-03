@@ -58,7 +58,7 @@ Ovaj model kontrolira ukupno devet vrijednosti, a nakon procesa učenja, predikc
 
 Slijedi priaz kompleksnijih funkcija Cost i Forward koje to omogučuju.
 
-### Funkcija cost:
+### Funkcija cost i forward:
 ![image](https://github.com/AnteDev00/Machine-Learning/assets/151842550/14fac635-2a2c-4bf7-91f4-e4ed80c78dde)
 
 
