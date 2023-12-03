@@ -27,6 +27,8 @@ Tokom procesa učenja, model smanjuje broj 3.91 -> 2, te vrijednost -0.14 -> 0.
 
 To se postiglo zbog funkcije Cost, te je čitav cilj procesa učenja smanjiti vrijednost Cost funkcije, prilagođavajući parametre i poboljšavajući predikcije modela.
 
+
+### Funkcija cost:
 ![image](https://github.com/AnteDev00/Machine-Learning/assets/151842550/4efabe17-a8fc-4376-8e7d-e4dee064392c)
 
 
@@ -36,10 +38,12 @@ To se postiglo zbog funkcije Cost, te je čitav cilj procesa učenja smanjiti vr
 
 Drugi primjer obuhvaća povezivanje više neurona kako bi stvorio inteligentniji sustav. 
 
+### Struktura Modela
 ![image](https://github.com/AnteDev00/Machine-Learning/assets/151842550/cedc50fb-1493-4fe6-addc-d38209e8e596)
 
 Ovaj model, s tri povezana neurona, pokazuju sposobnost prepoznavanja kompleksnijih uzoraka i pravila, poput tablica istine (Truth tables).
 
+### Tablica Istine NILI (XOR)
 ![image](https://github.com/AnteDev00/Machine-Learning/assets/151842550/4eac1bea-4556-4c04-9f6e-3499b13a96b6)
 
 Kao što vidimo na tablici, model mora točno predvidit koji je vrijednost izlaza (0/1), ako mu damo 2 ulaza (npr. 0 i 0).
@@ -54,6 +58,7 @@ Ovaj model kontrolira ukupno devet vrijednosti, a nakon procesa učenja, predikc
 
 Slijedi priaz kompleksnijih funkcija Cost i Forward koje to omogučuju.
 
+### Funkcija cost:
 ![image](https://github.com/AnteDev00/Machine-Learning/assets/151842550/14fac635-2a2c-4bf7-91f4-e4ed80c78dde)
 
 
