@@ -44,20 +44,15 @@ double cost(double param, double bias)
     return cost;
 }
 
-void costAndPrint(double param, double bias)
+void PrintModel(double param, double bias)
 {
-// ouput = input * parametar + bias
-    double cost = 0.00;
     cout << "/--------------------------------------------------/";
     cout << "\nParametar value: " << param << ", Bias value: " << bias << endl << endl;
     for (size_t i = 0; i < t_data.size(); i++)
     {
         double t_out = t_data[i].input * param + bias;
         cout << "Model prediction: " << t_out << ", Actuall value: " << t_data[i].output << endl;
-        double diff = t_out - t_data[i].output;
-        cost += diff * diff;
     }
-    cost /= t_data.size();
     cout << "/--------------------------------------------------/";
 }
 
@@ -85,7 +80,7 @@ int main()
 {
     double param = randomParam();
     double bias = randomParam();
-	costAndPrint(param, bias);
+	PrintModel(param, bias);
     cout << "\nCurrent Cost: " << cost(param,bias);
 	cout << "\n\nTraining process is about to start." ;
 
@@ -99,7 +94,7 @@ int main()
 		cout<<endl;
 	
 		train(amount, param, bias);	
-        costAndPrint(param, bias);
+        PrintModel(param, bias);
 	    std::cout << "\nAfter training, Cost: " << std::fixed << std::setprecision(6) << cost(param,bias) << endl;
 	}
 	
