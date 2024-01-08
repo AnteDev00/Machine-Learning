@@ -4,7 +4,7 @@ The project explores the domain of machine learning through the implementation o
 
 ---
 
-Example 1: Perceptron
+### Example 1: Perceptron
 
 The first example introduces the perceptron, the simplest neural network with a single neuron. This network enables the recognition of simple patterns, such as connections between sets of numbers. Visualizations before and after the learning process clearly demonstrate how the model adapts over time.
 
