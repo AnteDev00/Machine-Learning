@@ -33,7 +33,7 @@ This is achieved through the Cost function, and the entire goal of the learning 
 
 ---
 
-## Example 2: Multiple Neurons for an Intelligent System (Truth tables)
+## Example 2: More Complex Neural Network with more Neurons (Truth tables)
 
 The second example involves connecting multiple neurons to create a more intelligent system.
 
